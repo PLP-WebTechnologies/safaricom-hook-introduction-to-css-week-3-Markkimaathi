@@ -1,0 +1,53 @@
+/* External CSS */
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Element selector for all headings */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+/* Class selector for highlighted sections */
+.highlight {
+    background-color: #fff;
+    border-left: 4px solid #3498db;
+}
+
+/* ID selector for special div */
+#special {
+    border: 2px dashed #2c3e50;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+/* Link hover effect */
+a.css-reference:hover {
+    color: #e74c3c;
+    text-decoration: underline;
+}
+
+/* Card component styling */
+.card {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card-title {
+    color: #2c3e50;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.card-content {
+    color: #333;
+    text-align: justify;
+    margin-top: 15px;
+}
